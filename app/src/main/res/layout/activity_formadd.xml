@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    tools:context=".Formadd">
+
+    <TextView
+        android:id="@+id/jn_namasiswa"
+        android:textColor="#000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Siswa : "
+        android:layout_marginBottom="8dp"/>
+    <EditText
+        android:id="@+id/kt_namasiswa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:hint="Please enter ur name !!!!!"
+        android:layout_marginBottom="15dp"/>
+    <TextView
+        android:id="@+id/jn_alamatsiswa"
+        android:textColor="#000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alamat Siswa : "
+        android:layout_marginBottom="8dp"/>
+    <EditText
+        android:id="@+id/kt_alamatsiswa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:hint="Please enter ur address !!!!!!"
+        android:layout_marginBottom="15dp"/>
+    <TextView
+        android:id="@+id/jn_jeniskelaminsiswa"
+        android:textColor="#000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jeniskelamin Siswa : "
+        android:layout_marginBottom="8dp"/>
+    <EditText
+        android:id="@+id/kt_jeniskelaminsiswa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:hint="Please enter ur gender!!!!!!"
+        android:layout_marginBottom="15dp"/>
+    <TextView
+        android:id="@+id/jn_no_telpsiswa"
+        android:textColor="#000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Telephone Siswa : "
+        android:layout_marginBottom="8dp"/>
+    <EditText
+        android:id="@+id/kt_no_telpsiswa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:hint="Please enter ur callnumber !!!!!!"
+        android:layout_marginBottom="15dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT !"
+        android:onClick="submit"/>
+
+
+</LinearLayout>
